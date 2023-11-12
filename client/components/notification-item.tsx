@@ -81,52 +81,31 @@ const NotificationItem = () => {
               </Text>
             </HStack>
           </Badge>
-          <Pressable
-            onPress={() => console.warn('press')}
-            width={38}
-            height={38}
-            bgColor={Colors.primary}
-            justifyContent="center"
-            alignItems="center"
-            rounded={8}
-          >
+          <HStack gap={4}>
+            <Text
+              fontSize={FontSize.xl2}
+              fontWeight="bold"
+              color={Colors.primary}
+            >
+              x
+            </Text>
             <Text fontSize={FontSize.xl2} fontWeight="bold" color={Colors.text}>
-              -
+              2
             </Text>
-          </Pressable>
-          <Box
-            py={10}
-            w={62}
-            bgColor={Colors.dark_gray}
-            rounded={12}
-            justifyContent="center"
-            borderWidth={1}
-            borderColor={Colors.primary}
-            alignItems="center"
+          </HStack>
+          <Text
+            fontSize={FontSize.xl2}
+            fontWeight="bold"
+            color={Colors.primary}
           >
-            <Text fontWeight="bold" fontSize={FontSize.xl2} color={Colors.text}>
-              10
-            </Text>
-          </Box>
-          <Pressable
-            onPress={() => console.warn('press')}
-            width={38}
-            height={38}
-            bgColor={Colors.primary}
-            justifyContent="center"
-            alignItems="center"
-            rounded={8}
-          >
-            <Text fontSize={FontSize.xl2} fontWeight="bold" color={Colors.text}>
-              +
-            </Text>
-          </Pressable>
+            2
+          </Text>
         </HStack>
         <HStack alignItems="center" justifyContent="space-between">
           <Badge
-            w={62}
             rounded={12}
-            p={12}
+            py={12}
+            px={22}
             bgColor={Colors.background}
             justifyContent="center"
             alignItems="center"
@@ -134,6 +113,28 @@ const NotificationItem = () => {
             <Text fontWeight="bold" fontSize={FontSize.xl2} color={Colors.text}>
               M
             </Text>
+            <Divider
+              orientation="vertical"
+              mx="$3.5"
+              bg={Colors.light_gray}
+              h={15}
+            />
+            <HStack gap={4}>
+              <Text
+                fontSize={FontSize.xl2}
+                fontWeight="bold"
+                color={Colors.primary}
+              >
+                $
+              </Text>
+              <Text
+                fontSize={FontSize.xl2}
+                fontWeight="bold"
+                color={Colors.text}
+              >
+                4.20
+              </Text>
+            </HStack>
           </Badge>
           <HStack gap={4}>
             <Text
@@ -141,58 +142,25 @@ const NotificationItem = () => {
               fontWeight="bold"
               color={Colors.primary}
             >
-              $
+              x
             </Text>
             <Text fontSize={FontSize.xl2} fontWeight="bold" color={Colors.text}>
-              4.20
+              2
             </Text>
           </HStack>
-          <Pressable
-            onPress={() => console.warn('press')}
-            width={38}
-            height={38}
-            bgColor={Colors.primary}
-            justifyContent="center"
-            alignItems="center"
-            rounded={8}
+          <Text
+            fontSize={FontSize.xl2}
+            fontWeight="bold"
+            color={Colors.primary}
           >
-            <Text fontSize={FontSize.xl2} fontWeight="bold" color={Colors.text}>
-              -
-            </Text>
-          </Pressable>
-          <Box
-            py={10}
-            w={62}
-            bgColor={Colors.dark_gray}
-            rounded={12}
-            justifyContent="center"
-            borderWidth={1}
-            borderColor={Colors.primary}
-            alignItems="center"
-          >
-            <Text fontWeight="bold" fontSize={FontSize.xl2} color={Colors.text}>
-              10
-            </Text>
-          </Box>
-          <Pressable
-            onPress={() => console.warn('press')}
-            width={38}
-            height={38}
-            bgColor={Colors.primary}
-            justifyContent="center"
-            alignItems="center"
-            rounded={8}
-          >
-            <Text fontSize={FontSize.xl2} fontWeight="bold" color={Colors.text}>
-              +
-            </Text>
-          </Pressable>
+            2
+          </Text>
         </HStack>
         <HStack alignItems="center" justifyContent="space-between">
           <Badge
-            w={62}
             rounded={12}
-            p={12}
+            py={12}
+            px={22}
             bgColor={Colors.background}
             justifyContent="center"
             alignItems="center"
@@ -200,6 +168,28 @@ const NotificationItem = () => {
             <Text fontWeight="bold" fontSize={FontSize.xl2} color={Colors.text}>
               L
             </Text>
+            <Divider
+              orientation="vertical"
+              mx="$3.5"
+              bg={Colors.light_gray}
+              h={15}
+            />
+            <HStack gap={4}>
+              <Text
+                fontSize={FontSize.xl2}
+                fontWeight="bold"
+                color={Colors.primary}
+              >
+                $
+              </Text>
+              <Text
+                fontSize={FontSize.xl2}
+                fontWeight="bold"
+                color={Colors.text}
+              >
+                4.20
+              </Text>
+            </HStack>
           </Badge>
           <HStack gap={4}>
             <Text
@@ -207,52 +197,19 @@ const NotificationItem = () => {
               fontWeight="bold"
               color={Colors.primary}
             >
-              $
+              x
             </Text>
             <Text fontSize={FontSize.xl2} fontWeight="bold" color={Colors.text}>
-              4.20
+              2
             </Text>
           </HStack>
-          <Pressable
-            onPress={() => console.warn('press')}
-            width={38}
-            height={38}
-            bgColor={Colors.primary}
-            justifyContent="center"
-            alignItems="center"
-            rounded={8}
+          <Text
+            fontSize={FontSize.xl2}
+            fontWeight="bold"
+            color={Colors.primary}
           >
-            <Text fontSize={FontSize.xl2} fontWeight="bold" color={Colors.text}>
-              -
-            </Text>
-          </Pressable>
-          <Box
-            py={10}
-            w={62}
-            bgColor={Colors.dark_gray}
-            rounded={12}
-            justifyContent="center"
-            borderWidth={1}
-            borderColor={Colors.primary}
-            alignItems="center"
-          >
-            <Text fontWeight="bold" fontSize={FontSize.xl2} color={Colors.text}>
-              10
-            </Text>
-          </Box>
-          <Pressable
-            onPress={() => console.warn('press')}
-            width={38}
-            height={38}
-            bgColor={Colors.primary}
-            justifyContent="center"
-            alignItems="center"
-            rounded={8}
-          >
-            <Text fontSize={FontSize.xl2} fontWeight="bold" color={Colors.text}>
-              +
-            </Text>
-          </Pressable>
+            2
+          </Text>
         </HStack>
       </VStack>
     </VStack>

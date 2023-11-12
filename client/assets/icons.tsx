@@ -15,6 +15,7 @@ import Beans from './icons/beans.svg';
 import Bean from './icons/bean.svg';
 import Droplet from './icons/droplet.svg';
 import Location from './icons/location.svg';
+import Heart_Pick from './icons/heart_pick.svg';
 
 export const Icons = {
   Home,
@@ -34,4 +35,5 @@ export const Icons = {
   Bean,
   Droplet,
   Location,
+  Heart_Pick,
 };
