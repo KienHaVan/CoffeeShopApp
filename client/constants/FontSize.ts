@@ -5,5 +5,6 @@ export default {
   lg: 16,
   xl: 18,
   xl2: 20,
+  xl25: 24,
   xl3: 28,
 };

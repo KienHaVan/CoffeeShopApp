@@ -48,8 +48,13 @@ function RootLayoutNav() {
     <GluestackUIProvider config={config}>
       <StatusBar barStyle={'default'} />
       <ThemeProvider value={DarkTheme}>
-        <Stack>
-          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        <Stack
+          screenOptions={{
+            headerShown: false,
+            animation: 'slide_from_bottom',
+          }}
+        >
+          <Stack.Screen name="(tabs)" />
         </Stack>
       </ThemeProvider>
     </GluestackUIProvider>
