@@ -1,11 +1,19 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { Box, VStack } from '@gluestack-ui/themed';
 import React from 'react';
+import FavoriteItem from '../../components/favorite-item';
+import TabPageLayout from '../../components/tab-page-layout';
 
 const FavoriteScreen = () => {
   return (
-    <View>
-      <Text>FavoriteScreen</Text>
-    </View>
+    <TabPageLayout caption="Favorites">
+      <VStack gap={12}>
+        <FavoriteItem />
+        <FavoriteItem />
+        <FavoriteItem />
+        <FavoriteItem />
+        <Box h={12} />
+      </VStack>
+    </TabPageLayout>
   );
 };
 
